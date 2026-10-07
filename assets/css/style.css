@@ -1,0 +1,11 @@
+body{background:#f4f7fb;font-family:'Segoe UI',system-ui,sans-serif}
+.app-nav{background:linear-gradient(90deg,#0b3d91,#1565c0)}
+.hero{background:linear-gradient(135deg,#0b3d91,#1e88e5);color:#fff;border-radius:1rem;padding:4rem 2rem}
+.card{border:0;border-radius:.9rem;box-shadow:0 2px 10px rgba(0,0,0,.07);transition:.25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.stat{font-size:2rem;font-weight:700;color:#0b3d91}
+.timeline{display:flex;justify-content:space-between;list-style:none;padding:0;margin:1.5rem 0}
+.timeline li{flex:1;text-align:center;font-size:.85rem;color:#999}
+.timeline li .dot{width:34px;height:34px;border-radius:50%;background:#dde3ec;margin:0 auto 6px;line-height:34px;color:#fff}
+.timeline li.done{color:#198754;font-weight:600}.timeline li.done .dot{background:#198754}
+.timeline li.now .dot{background:#1565c0;box-shadow:0 0 0 5px rgba(21,101,192,.2)}
